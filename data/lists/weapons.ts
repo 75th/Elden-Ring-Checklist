@@ -6,6 +6,7 @@ export const WeaponsList: Array<ListType> = [
     id: "aacc4e23-a528-4f24-a918-b01309c41b33",
     name: "Axes",
     url: "https://eldenring.wiki.fextralife.com/Axes",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "4b3a4a05-84a1-40f4-bb1a-e6ccd7bc1d53",
@@ -28,6 +29,7 @@ export const WeaponsList: Array<ListType> = [
           "Death Knight's Twin Axes"
         ),
         isDLC: true,
+        doesNotNeedTwo: true,
       },
       {
         id: "138d0b66-fe82-43db-b4c5-f547908f0f54",
@@ -283,7 +285,7 @@ export const WeaponsList: Array<ListType> = [
   },
   {
     id: "2f23f9d1-513e-45a0-bb7b-42ac7d7a4dab",
-    name: "Claw",
+    name: "Claws",
     url: "https://eldenring.wiki.fextralife.com/Claws",
     requirements: [
       {
@@ -326,8 +328,9 @@ export const WeaponsList: Array<ListType> = [
   },
   {
     id: "923c00cd-bb9a-4d39-88fe-2590ff3fd256",
-    name: "Colossal Sword",
+    name: "Colossal Swords",
     url: "https://eldenring.wiki.fextralife.com/Colossal+Swords",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "aae45ca6-f078-4174-8c34-457f840ae1d9",
@@ -373,6 +376,7 @@ export const WeaponsList: Array<ListType> = [
           "Greatsword of Radahn (Light)"
         ),
         isDLC: true,
+        doesNotNeedTwo: true,
       },
       {
         id: "95a42b41-2c0d-4425-8bb3-4c0b36b99bfa",
@@ -381,6 +385,7 @@ export const WeaponsList: Array<ListType> = [
           "Greatsword of Radahn (Lord)"
         ),
         isDLC: true,
+        doesNotNeedTwo: true,
       },
       {
         id: "d1a23600-89df-4d7e-9605-cfd5fda9bf55",
@@ -417,6 +422,7 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Starscourge+Greatsword",
           "Starscourge Greatsword"
         ),
+        doesNotNeedTwo: true,
       },
       {
         id: "d84f59d4-716a-4d1a-8c3f-9068842f23b0",
@@ -452,6 +458,7 @@ export const WeaponsList: Array<ListType> = [
     id: "5a480d9c-a109-4e70-b5b7-6836a8aeb512",
     name: "Colossal Weapons",
     url: "https://eldenring.wiki.fextralife.com/Colossal+Weapons",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "1cd2bdeb-9097-49ec-8f6e-c3db2828fce6",
@@ -604,6 +611,7 @@ export const WeaponsList: Array<ListType> = [
     id: "483f6c3b-cbf7-4453-abd3-77fd9091bd66",
     name: "Crossbows",
     url: "https://eldenring.wiki.fextralife.com/Crossbows",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "49a15d3f-aded-458f-95c6-b5ba50f3e59d",
@@ -676,6 +684,7 @@ export const WeaponsList: Array<ListType> = [
     id: "c9d55d51-6388-4961-babf-34ed7d18b6b2",
     name: "Curved Greatswords",
     url: "https://eldenring.wiki.fextralife.com/Curved+Greatswords",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "0912175b-c003-4109-a817-cb865bd0f4a2",
@@ -762,6 +771,7 @@ export const WeaponsList: Array<ListType> = [
     id: "785d0a72-82cb-48b7-ac6f-88531a577669",
     name: "Curved Swords",
     url: "https://eldenring.wiki.fextralife.com/Curved+Swords",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "c76105d9-6573-4b02-8e15-b87c5f63b1d1",
@@ -784,6 +794,7 @@ export const WeaponsList: Array<ListType> = [
           "Dancing Blade of Ranah"
         ),
         isDLC: true,
+        doesNotNeedTwo: true,
       },
       {
         id: "c080ebed-b63e-49db-aba3-c9832faeca4f",
@@ -806,6 +817,7 @@ export const WeaponsList: Array<ListType> = [
           "Falx"
         ),
         isDLC: true,
+        doesNotNeedTwo: true,
       },
       {
         id: "2272eba0-23b4-43bb-9409-36b1a690bc59",
@@ -828,6 +840,7 @@ export const WeaponsList: Array<ListType> = [
           "Horned Warrior's Sword"
         ),
         isDLC: true,
+        doesNotNeedTwo: true,
       },
       {
         id: "3fce9367-ef5f-46b1-b2e6-8ccfc4d4fa1c",
@@ -906,6 +919,7 @@ export const WeaponsList: Array<ListType> = [
     id: "4283c264-94f2-4ec9-9e28-e2c2b45abe51",
     name: "Daggers",
     url: "https://eldenring.wiki.fextralife.com/Daggers",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "408e30b3-07e3-4b61-ab51-9a07faebb49b",
@@ -1143,6 +1157,7 @@ export const WeaponsList: Array<ListType> = [
     id: "62639b3d-b550-4fe2-9a79-fb72c94c5bf4",
     name: "Flails",
     url: "https://eldenring.wiki.fextralife.com/Flails",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "f3283bff-835a-454a-8347-1e74ab44126b",
@@ -1193,6 +1208,7 @@ export const WeaponsList: Array<ListType> = [
     id: "42e11109-7dbe-44dd-9ecb-347ba64e02f5",
     name: "Glintstone Staffs",
     url: "https://eldenring.wiki.fextralife.com/Glintstone+Staffs",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "54ea67a4-6ceb-42e7-9d58-b00d497e13ce",
@@ -1342,6 +1358,7 @@ export const WeaponsList: Array<ListType> = [
     id: "820cd374-32da-4e06-91c2-745a24180a4e",
     name: "Great Hammers / Warhammers",
     url: "https://eldenring.wiki.fextralife.com/Great+Hammers",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "e986cc60-0bcc-412b-a04c-e35b46eed753",
@@ -1464,6 +1481,7 @@ export const WeaponsList: Array<ListType> = [
     name: "Great Katanas",
     url: "https://eldenring.wiki.fextralife.com/Great+Katanas",
     isDLC: true,
+    needTwoOfEach: true,
     requirements: [
       {
         id: "b3cb83be-4c8c-4179-bfb9-68468ee224a0",
@@ -1495,6 +1513,7 @@ export const WeaponsList: Array<ListType> = [
     id: "b3a8245d-b018-4ad5-98a7-a704dd5abebf",
     name: "Great Spears",
     url: "https://eldenring.wiki.fextralife.com/Great+Spears",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "c1363925-126c-4572-9d55-0af2afd6539b",
@@ -1576,6 +1595,7 @@ export const WeaponsList: Array<ListType> = [
     id: "a2045d0d-50c1-4893-a5bc-b8ec09954cfb",
     name: "Greataxes",
     url: "https://eldenring.wiki.fextralife.com/Greataxes",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "f7db47ec-b5c0-4b4d-8064-b2811f1082c3",
@@ -1727,6 +1747,7 @@ export const WeaponsList: Array<ListType> = [
     id: "b730968e-7ba7-45a9-b0e0-4997d114c456",
     name: "Greatshields",
     url: "https://eldenring.wiki.fextralife.com/GreatShields",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "1041fe4f-b7e8-47f3-87aa-ea42810c7615",
@@ -1925,6 +1946,7 @@ export const WeaponsList: Array<ListType> = [
     id: "4e4c228a-26eb-44cc-bda9-dad8401aab34",
     name: "Greatswords",
     url: "https://eldenring.wiki.fextralife.com/Greatswords",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "414bad4c-219c-4468-8ef6-5e03df272e84",
@@ -2103,6 +2125,7 @@ export const WeaponsList: Array<ListType> = [
     id: "2fdc95c9-9970-4d6a-8bce-78c6f7458757",
     name: "Halberds",
     url: "https://eldenring.wiki.fextralife.com/Halberds",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "e440eae3-fbbe-4cc9-ac15-31fcf9ad28c9",
@@ -2238,6 +2261,7 @@ export const WeaponsList: Array<ListType> = [
     id: "ef53b725-1f33-432c-9b13-25c4335f8b71",
     name: "Hammers",
     url: "https://eldenring.wiki.fextralife.com/Hammers",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "6e19dd02-cea5-4294-8fc4-66f1e1c9fd95",
@@ -2382,6 +2406,7 @@ export const WeaponsList: Array<ListType> = [
     id: "02c7084b-5175-4f34-ad8d-7489b672d7e6",
     name: "Heavy Thrusting Swords",
     url: "https://eldenring.wiki.fextralife.com/Heavy+Thrusting+Swords",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "bbde6a32-b988-4a88-9502-f9d0340db8c2",
@@ -2433,6 +2458,7 @@ export const WeaponsList: Array<ListType> = [
     id: "d5951052-4abe-4247-a00a-1165e9fad756",
     name: "Katanas",
     url: "https://eldenring.wiki.fextralife.com/Katanas",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "c51d2cd1-45f5-4425-a408-50865caa088d",
@@ -2563,6 +2589,7 @@ export const WeaponsList: Array<ListType> = [
     name: "Light Greatswords",
     url: "https://eldenring.wiki.fextralife.com/Light+Greatswords",
     isDLC: true,
+    needTwoOfEach: true,
     requirements: [
       {
         id: "bb68d456-b05d-4846-a107-765ddd1b56d5",
@@ -2587,6 +2614,7 @@ export const WeaponsList: Array<ListType> = [
           "Rellana's Twin Blades"
         ),
         isDLC: true,
+        doesNotNeedTwo: true,
       },
     ],
   },
@@ -2594,6 +2622,7 @@ export const WeaponsList: Array<ListType> = [
     id: "1eda94ec-2907-4701-b86d-d83e96b91799",
     name: "Medium Shields",
     url: "https://eldenring.wiki.fextralife.com/Medium+Shields",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "3078c810-941e-4345-a610-b0740edf4536",
@@ -2870,6 +2899,7 @@ export const WeaponsList: Array<ListType> = [
     id: "ea94b215-b2bd-4c22-875f-db9418ff7a3a",
     name: "Reapers",
     url: "https://eldenring.wiki.fextralife.com/Reapers",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "f4c3b154-c066-4b0e-8e3f-5fbd4d075815",
@@ -2913,6 +2943,7 @@ export const WeaponsList: Array<ListType> = [
     id: "81a005a8-3c5f-43f8-a0a0-6f00236fc169",
     name: "Sacred Seal",
     url: "https://eldenring.wiki.fextralife.com/Sacred+Seals",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "a29ec338-0860-4f55-89ea-4a094b1ea679",
@@ -3007,6 +3038,7 @@ export const WeaponsList: Array<ListType> = [
     id: "b8238aeb-24a4-46bc-b6d4-d26b494bcd96",
     name: "Small Shields",
     url: "https://eldenring.wiki.fextralife.com/Small+Shields",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "c81a5584-0d14-4dab-ba8d-2115c5fcfd6c",
@@ -3149,6 +3181,7 @@ export const WeaponsList: Array<ListType> = [
     id: "f314e8da-47a7-4852-8ba4-c0ed1e835730",
     name: "Spears",
     url: "https://eldenring.wiki.fextralife.com/Spears",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "4e948733-8276-4da5-b8ba-cb51efd18da5",
@@ -3292,6 +3325,7 @@ export const WeaponsList: Array<ListType> = [
     id: "87876017-0964-498c-8787-c05800639c54",
     name: "Straight Swords",
     url: "https://eldenring.wiki.fextralife.com/Straight+Swords",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "95c2e646-7294-452b-8c8d-d1cbc294d981",
@@ -3384,6 +3418,7 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Ornamental+Straight+Sword",
           "Ornamental Straight Sword"
         ),
+        doesNotNeedTwo: true,
       },
       {
         id: "1afb3d9c-f183-4b74-a4bc-56fa453fd92c",
@@ -3489,6 +3524,7 @@ export const WeaponsList: Array<ListType> = [
     name: "Thrusting Shields",
     url: "https://eldenring.wiki.fextralife.com/Thrusting+Shields",
     isDLC: true,
+    needTwoOfEach: true,
     requirements: [
       {
         id: "7880c570-e3fa-4a8c-a68d-f939708fdcf5",
@@ -3512,6 +3548,7 @@ export const WeaponsList: Array<ListType> = [
     id: "2d338bd0-26f4-4171-b523-a93b26401e59",
     name: "Thrusting Swords",
     url: "https://eldenring.wiki.fextralife.com/Thrusting+Swords",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "63cb42d3-ed2b-407c-8c1a-95e9bd6cdacb",
@@ -3576,6 +3613,7 @@ export const WeaponsList: Array<ListType> = [
     id: "e9ce4219-1586-4eaa-8a70-1e96db91dcd1",
     name: "Torches",
     url: "https://eldenring.wiki.fextralife.com/Torches",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "e619fab4-563b-47ce-ac5b-cfac0bd46967",
@@ -3640,6 +3678,7 @@ export const WeaponsList: Array<ListType> = [
   {
     id: "f6cde69d-4c14-475e-a1dc-50f3839bd36c",
     name: "Twinblades",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "c333d69f-e6e9-430a-8e91-3e27b74881ad",
@@ -3706,6 +3745,7 @@ export const WeaponsList: Array<ListType> = [
     id: "96d64763-7278-4e42-a18a-78310f4e2274",
     name: "Whips",
     url: "https://eldenring.wiki.fextralife.com/Whips",
+    needTwoOfEach: true,
     requirements: [
       {
         id: "69b98cf1-b31b-485c-938f-4404af07ff8f",
